@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Wedding from './Wedding' ;
+import MainPhoto from './MainPhoto';
 
 
 function App() {
@@ -64,17 +65,8 @@ function App() {
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
-          <div className="carousel-inner" role="listbox">
-            <div className="carousel-item active">
-              <img className="d-block img-fluid" src="http://oliviawedding.com/banner900300.jpg" alt="First slide"></img>
-            </div>
-            <div className="carousel-item">
-              <img className="d-block img-fluid" src="https://i.vimeocdn.com/video/710081439.webp?mw=900&mh=300" alt="Second slide"></img>
-            </div>
-            <div className="carousel-item">
-              <img className="d-block img-fluid" src="https://www.itravelbetter.com/wp-content/uploads/sites/64/2018/10/900x300-Blog-Mid-Content-Mexican-Beach-Wedding-A.jpg" alt="Third slide"></img>
-            </div>
-          </div>
+         {/**Main slider */}
+         <MainPhoto/>
           <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
             <span className="sr-only">Previous</span>
