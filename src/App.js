@@ -66,13 +66,13 @@ function App() {
           </ol>
           <div className="carousel-inner" role="listbox">
             <div className="carousel-item active">
-              <img className="d-block img-fluid" src="http://placehold.it/900x350" alt="First slide"></img>
+              <img className="d-block img-fluid" src="http://oliviawedding.com/banner900300.jpg" alt="First slide"></img>
             </div>
             <div className="carousel-item">
-              <img className="d-block img-fluid" src="http://placehold.it/900x350" alt="Second slide"></img>
+              <img className="d-block img-fluid" src="https://i.vimeocdn.com/video/710081439.webp?mw=900&mh=300" alt="Second slide"></img>
             </div>
             <div className="carousel-item">
-              <img className="d-block img-fluid" src="http://placehold.it/900x350" alt="Third slide"></img>
+              <img className="d-block img-fluid" src="https://www.itravelbetter.com/wp-content/uploads/sites/64/2018/10/900x300-Blog-Mid-Content-Mexican-Beach-Wedding-A.jpg" alt="Third slide"></img>
             </div>
           </div>
           <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
