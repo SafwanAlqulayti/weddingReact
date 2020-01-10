@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+ 
 import './App.css';
 import Wedding from './Wedding' ;
 import MainPhoto from './MainPhoto';
@@ -65,7 +65,7 @@ function App() {
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
-         {/**Main slider */}
+         {/**Main slider */} 
          <MainPhoto/>
           <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>

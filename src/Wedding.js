@@ -9,7 +9,9 @@ class Wedding extends Component {
     componentDidMount(){
 axios.get(`https://cors-anywhere.herokuapp.com/https://weddingnew.herokuapp.com/places/1`)
 .then(data =>{
-   
+    // var photo = document.createElement("img") 
+ 
+    // photo.setAttribute("src", data.data.data.img);
 
         console.log(data)
   
